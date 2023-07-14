@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: rgba(240, 248, 255, 0);
+        }
+        body{
+            background-image: url(./img/stethoscope.png);
+             background-position: center;
+            background-repeat: no-repeat;
+            background-size: 700px 600px;
+        }
+        .head{
+            display: flex;
+            justify-content: space-between;
+        }
+        .logo{
+            display: flex;
+        }
+        .logo img{
+            margin-left: 120px;
+            margin-top: 20px;
+        }
+        #img1{
+            margin-left: 120px;
+            width: 20px;
+        }
+        #img2{
+            margin-left: 270px;
+            width: 20px;
+        }
+        #img3{
+            margin-top: 5px;
+            width: 25px;
+            margin-left: 670px;
+        }
+        .nav{
+            margin-right: 90px;
+            margin-top: 20px;
+        }
+        .nav a{
+            text-decoration: none;
+            color: black;
+            font-size: 16px;
+            padding: 10px;
+           font-weight: bold; 
+        }
+        .main{
+            display: flex;
+            margin-top: 30px;
+        }
+        .box1{
+            margin-top: 200px;
+        }
+        .box1 h1{
+            font-size: 45px;
+            width: 350px;
+            margin-left: 120px;
+        }
+        .box1 p{
+            margin-top: 5px;
+            margin-left: 120px;
+            width: 560px;
+        }
+        #btn{
+            margin-left: 120px;
+            margin-top: 20px;
+            background-color: rgb(32, 241, 207);
+            padding: 10px 35px;
+            border-radius: 20px;
+            color: white;
+            border: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .box2{
+            position: relative;
+            top: 0;
+            left: 0;
+            margin-top: 150px;
+            margin-left: 280px;
+        }
+        #img4{
+            position: relative;
+            top: 0;
+            left: 0;
+        }
+        #img5{
+            position: absolute;
+            top: -30px;
+            left: -20px;
+        }
+        #img6{
+            position: absolute;
+            top: -200px;
+            left: -70px;
+        }
+    </style>
+</head>
+<body>
+    <div class="head">
+        <div class="logo">
+            <img src="./img/logo.png" alt="" width="120px">
+        </div>
+        <div class="nav">
+            <a href="./index.html">Home</a>
+            <a href="./about.html">About us</a>
+            <a href="./contect.html">Contact us</a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="box1">
+            <img id="img1" src="./img/topAngle.png" alt="">
+            <h1>Complete Health Care Solution for Everyone</h1>
+            <p>We`re always available for our Patients with emergen problems. You 
+                can easily reach us 24/7 We focused on highest quality.
+            </p>
+            <button id="btn">Make Appoinment</button>
+            <img id="img2" src="./img/bottomAngle.png" alt="">
+            <img id="img3" src="./img/mouse.png" alt="">
+        </div>
+        <div class="box2">
+            <img id="img4" src="./img/yellowBox.png" alt="" width="340px">
+            <img id="img5" src="./img/greenBox.png" alt="" width ="340px">
+            <img id="img6" src="./img/doctor.png" alt="" width="400px">
+        </div>
+    </div>
+</body>
+</html>
